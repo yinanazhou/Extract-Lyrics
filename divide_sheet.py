@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-import argparse
 
 
 PATH = "ml_balanced_test.xlsx"
