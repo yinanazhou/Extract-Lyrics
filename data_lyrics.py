@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 import ssl
 from googlesearch import search
 import time
+import argparse
 
 
 def scrape_lyrics(url):
@@ -59,7 +60,7 @@ def Extract(Track_name, artist_name):
                     print(Track_name + artist_name)
 
         except:
-            print("Song Not Found in Genius: %s" %(Track_name + " " + artist_name))
+            print("Song Not Found in Genius: %s" % (Track_name + " " + artist_name))
             flag = False
 
         return Track_name, artist_name, song_json, flag
@@ -83,7 +84,7 @@ def save_lyrics(dataset_path, json_path):
 
     for row_index, song in data_list.iterrows():
         title_name, artist_name, song_lyric, flag = Extract(song.Title, song.Artist)
-        if flag == True:
+        if flag:
             data["Title"].append(title_name)
             data["Artist"].append(artist_name)
             data["Lyric"].append(song_lyric)
@@ -98,7 +99,16 @@ def save_lyrics(dataset_path, json_path):
 
 
 if __name__ == "__main__":
-    dataset_path = "ml_balanced.xlsx"
-    json_path = "lyrics.json"
+    parser = argparse.ArgumentParser()
+    id_parser = parser.add_argument('--id',
+                                    metavar='ID',
+                                    action='store',
+                                    help='Specify either MoodyLyrics or song or album search terms [ml/song/album]',
+                                    type=int)
+    id_args = parser.parse_args()
+    ID = id_args.id
+
+    dataset_path = 'output/lyric_{:03d}.xlsx'.format(ID)
+    json_path = "json/lyric_"+str(ID)+".json"
 
     save_lyrics(dataset_path, json_path)
