@@ -109,6 +109,6 @@ if __name__ == "__main__":
     ID = id_args.id
 
     dataset_path = 'output/lyric_{:03d}.xlsx'.format(ID)
-    json_path = "json/lyric_"+str(ID)+".json"
+    json_path = 'json/lyric_{:03d}.json'.format(ID)
 
     save_lyrics(dataset_path, json_path)

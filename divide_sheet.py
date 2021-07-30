@@ -4,7 +4,7 @@ import argparse
 
 
 PATH = "ml_balanced_test.xlsx"
-SIZE = 250
+SIZE = 4
 destination = "output"
 
 i = 1
