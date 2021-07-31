@@ -11,6 +11,7 @@ module load python/3.8
 module load scipy-stack
 virtualenv --no-download $SLURM_TMPDIR/env
 source $SLURM_TMPDIR/env/bin/activate
+pip install openpyxl
 
 echo "python"
 python -u divide_sheet.py --mode mw-plw
