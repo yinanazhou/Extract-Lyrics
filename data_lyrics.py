@@ -20,9 +20,7 @@ def scrape_lyrics(url):
     soup = BeautifulSoup(webpage, 'html.parser')
 
     html = soup.prettify('utf-8')
-    song_json = {}
-    song_json["Lyrics"] = []
-    song_json["Comments"] = []
+    song_json = {"Lyrics": [], "Comments": []}
 
     for title in soup.find_all('title'):
         song_json["Title"] = title.text.strip()
@@ -32,14 +30,15 @@ def scrape_lyrics(url):
 
     return song_json
 
-def Extract(Track_name, artist_name):
-    query = "genius lyrics " + Track_name + " " + artist_name
+
+def Extract(track_name, artist_name):
+    query = "genius lyrics " + track_name + " " + artist_name
     url = ''
     for j in search(query, tld="co.in", num=1, stop=1, pause=3):
         url = j
 
         if(url.find('genius') == -1):
-            print("Song Not Found: %s,%s" %(Track_name, artist_name))
+            print("Song Not Found: %s,%s" %(track_name, artist_name))
             continue
 
         try:
@@ -57,13 +56,13 @@ def Extract(Track_name, artist_name):
                         # json.dump(song_json, outfile, indent = 4, ensure_ascii = False)
                 else:
                     flag = False
-                    print(Track_name + artist_name)
+                    print(track_name + artist_name)
 
         except:
-            print("Song Not Found in Genius: %s" % (Track_name + " " + artist_name))
+            print("Song Not Found in Genius: %s" % (track_name + " " + artist_name))
             flag = False
 
-        return Track_name, artist_name, song_json, flag
+        return track_name, artist_name, song_json, flag
 
 
 def save_lyrics(dataset_path, json_path):
@@ -95,7 +94,7 @@ def save_lyrics(dataset_path, json_path):
 
     with open(json_path, 'w') as fp:
         json.dump(data, fp, indent=4)
-        print('Saved: ', len(data["Title"]))
+        print('Saved json/lyric_{:03d}.json: '.format(ID), len(data["Title"]))
 
 
 if __name__ == "__main__":
@@ -103,7 +102,7 @@ if __name__ == "__main__":
     id_parser = parser.add_argument('--id',
                                     metavar='ID',
                                     action='store',
-                                    help='Specify either MoodyLyrics or song or album search terms [ml/song/album]',
+                                    help='xlsx file ID',
                                     type=int)
     id_args = parser.parse_args()
     ID = id_args.id
