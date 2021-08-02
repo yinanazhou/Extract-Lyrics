@@ -19,3 +19,14 @@ Collecting et-xmlfile
 Installing collected packages: et-xmlfile, openpyxl
 Successfully installed et-xmlfile-1.1.0 openpyxl-3.0.7+computecanada
 Starting Task 58
+Succeed 0001 : Knife
+Succeed 0002 : It's For You
+Succeed 0003 : Braintrust
+Succeed 0004 : The Velvet Cell
+Succeed 0005 : I Hate People 
+Succeed 0006 : Thursday
+Succeed 0007 : In Pairs
+Succeed 0008 : The Training
+Succeed 0009 : Let's Get Lost
+Succeed 0010 : What It Look Like
+Saved json/lyric_058.json:  10

@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH --account=def-ichiro
 #SBATCH --gres=gpu:v100:1
-#SBATCH --time=05:00:00
-#SBATCH --array=41-50
+#SBATCH --time=05:30:00
+#SBATCH --array=31-40
 #SBATCH --output=run_output/output_%a.out
 #SBATCH --gres=gpu:1       # Request GPU "generic resources"
 #SBATCH --cpus-per-task=4  # Cores proportional to GPUs: 6 on Cedar, 16 on Graham.
@@ -16,5 +16,5 @@ pip install google==3.0.0
 pip install openpyxl
 
 echo "Starting Task $SLURM_ARRAY_TASK_ID"
-sleep 15m
+sleep 30m
 python -u data_lyrics.py --id $SLURM_ARRAY_TASK_ID

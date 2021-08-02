@@ -1,0 +1,32 @@
+created virtual environment CPython3.8.10.final.0-64 in 3882ms
+  creator CPython3Posix(dest=/localscratch/yinan.9186062.0/env, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/yinan/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/google-3.0.0+computecanada-py2.py3-none-any.whl
+Collecting beautifulsoup4
+  Using cached beautifulsoup4-4.9.3-py3-none-any.whl (115 kB)
+Collecting soupsieve>1.2; python_version >= "3.0"
+  Using cached soupsieve-2.2.1-py3-none-any.whl (33 kB)
+Installing collected packages: soupsieve, beautifulsoup4, google
+Successfully installed beautifulsoup4-4.9.3 google-3.0.0+computecanada soupsieve-2.2.1
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/openpyxl-3.0.7+computecanada-py2.py3-none-any.whl
+Collecting et-xmlfile
+  Using cached et_xmlfile-1.1.0-py3-none-any.whl (4.7 kB)
+Installing collected packages: et-xmlfile, openpyxl
+Successfully installed et-xmlfile-1.1.0 openpyxl-3.0.7+computecanada
+Starting Task 122
+Succeed 0001 : Sun It Rises
+Succeed 0002 : The Very Thought Of You
+Succeed 0003 : Falling From The Sun
+Succeed 0004 : Mother Of Pearl
+Succeed 0005 : Blazing Fire 
+Succeed 0006 : All I Want Is You
+Succeed 0007 : Sailing To Nowhere
+Succeed 0008 : Peace, Love & Happiness
+Succeed 0009 : You're The Best Break This Old Heart Ever Had
+Succeed 0010 : Quiero Amanecer Contigo
+Saved json/lyric_122.json:  10

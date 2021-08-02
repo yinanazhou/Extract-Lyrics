@@ -19,3 +19,14 @@ Collecting et-xmlfile
 Installing collected packages: et-xmlfile, openpyxl
 Successfully installed et-xmlfile-1.1.0 openpyxl-3.0.7+computecanada
 Starting Task 59
+Succeed 0001 : What A Wonderful World
+Succeed 0002 : My Kind Of Girl
+Succeed 0003 : Heartaches
+Succeed 0004 : Come On-A My House
+Succeed 0005 : I'll Never Smile Again 
+Succeed 0006 : Nice Work If You Can Get It
+Succeed 0007 : Too Young
+Succeed 0008 : Nice 'N' Easy
+Succeed 0009 : The Very Thought Of You 
+Succeed 0010 : Issues
+Saved json/lyric_059.json:  10

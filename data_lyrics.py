@@ -32,7 +32,7 @@ def scrape_lyrics(url):
 
 
 def Extract(track_name, artist_name):
-    query = "genius lyrics " + track_name + " " + artist_name
+    query = "genius lyrics " + str(track_name) + " " + str(artist_name)
     url = ''
     for j in search(query, tld="co.in", num=1, stop=1, pause=3):
         url = j

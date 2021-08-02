@@ -19,3 +19,14 @@ Collecting et-xmlfile
 Installing collected packages: et-xmlfile, openpyxl
 Successfully installed et-xmlfile-1.1.0 openpyxl-3.0.7+computecanada
 Starting Task 57
+Succeed 0001 : Bustin' At 'Em
+Succeed 0002 : Mickey Mouse
+Succeed 0003 : Organ Blues
+Succeed 0004 : Dream About The Future
+Succeed 0005 : Small Axe
+Succeed 0006 : Boss Status
+Succeed 0007 : Troddin The Valley
+Succeed 0008 : Love Comes To Me
+Succeed 0009 : In This Home On Ice
+Succeed 0010 : Fever Dreaming
+Saved json/lyric_057.json:  10

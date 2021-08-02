@@ -19,3 +19,14 @@ Collecting et-xmlfile
 Installing collected packages: et-xmlfile, openpyxl
 Successfully installed et-xmlfile-1.1.0 openpyxl-3.0.7+computecanada
 Starting Task 53
+Succeed 0001 : Away From Me
+Succeed 0002 : Home
+Succeed 0003 : Glorified G
+Succeed 0004 : Que Vuelva
+Succeed 0005 : Y Te Has Quedado Sola
+Succeed 0006 : Ni Tu Ni Nadie
+Succeed 0007 : On The Dancefloor 
+Succeed 0008 : El Palomito
+Succeed 0009 : Vestido Azul
+Succeed 0010 : Algo De Ti
+Saved json/lyric_053.json:  10

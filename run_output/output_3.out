@@ -19,3 +19,4 @@ Collecting et-xmlfile
 Installing collected packages: et-xmlfile, openpyxl
 Successfully installed et-xmlfile-1.1.0 openpyxl-3.0.7+computecanada
 Starting Task 3
+slurmstepd: error: *** JOB 9140127 ON cdr347 CANCELLED AT 2021-08-01T23:33:08 DUE TO TIME LIMIT ***

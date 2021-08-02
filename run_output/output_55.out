@@ -19,3 +19,14 @@ Collecting et-xmlfile
 Installing collected packages: et-xmlfile, openpyxl
 Successfully installed et-xmlfile-1.1.0 openpyxl-3.0.7+computecanada
 Starting Task 55
+Succeed 0001 : Love Rollercoaster
+Succeed 0002 : Respect Yourself
+Succeed 0003 : Lover Please
+Succeed 0004 : Maybe Tomorrow
+Succeed 0005 : Walking In Rhythm
+Succeed 0006 : Take That To The Bank
+Succeed 0007 : Love Is The Key 
+Succeed 0008 : Baby Hold On To Me
+Succeed 0009 : Fortunate
+Succeed 0010 : Intimate Friends
+Saved json/lyric_055.json:  10
