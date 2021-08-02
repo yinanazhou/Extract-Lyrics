@@ -1,0 +1,32 @@
+created virtual environment CPython3.8.10.final.0-64 in 23163ms
+  creator CPython3Posix(dest=/localscratch/yinan.9149219.0/env, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/yinan/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/google-3.0.0+computecanada-py2.py3-none-any.whl
+Collecting beautifulsoup4
+  Using cached beautifulsoup4-4.9.3-py3-none-any.whl (115 kB)
+Collecting soupsieve>1.2; python_version >= "3.0"
+  Using cached soupsieve-2.2.1-py3-none-any.whl (33 kB)
+Installing collected packages: soupsieve, beautifulsoup4, google
+Successfully installed beautifulsoup4-4.9.3 google-3.0.0+computecanada soupsieve-2.2.1
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/openpyxl-3.0.7+computecanada-py2.py3-none-any.whl
+Collecting et-xmlfile
+  Using cached et_xmlfile-1.1.0-py3-none-any.whl (4.7 kB)
+Installing collected packages: et-xmlfile, openpyxl
+Successfully installed et-xmlfile-1.1.0 openpyxl-3.0.7+computecanada
+Starting Task 18
+Succeed 0001 : Bandages
+Succeed 0002 : Love You More
+Succeed 0003 : Ring Of Fire
+Succeed 0004 : Sick And Sad
+Succeed 0005 : The Fire
+Succeed 0006 : Take A Look Around
+Succeed 0007 : The Bravest Kids
+Succeed 0008 : White Riot
+Succeed 0009 : Over The Rainbow
+Succeed 0010 : Uphold Me
+Saved json/lyric_018.json:  10
