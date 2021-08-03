@@ -25,3 +25,13 @@ Succeed 0003 : Be-Bop-A-Lula
 Succeed 0004 : Our Day Will Come
 Succeed 0005 : We Are One 
 Succeed 0006 : Ffun
+Succeed 0007 : Angel
+Succeed 0008 : Without You
+Succeed 0009 : Fear
+Song Not Found: Kind Hearted Woman,Big Head Blues Club
+Traceback (most recent call last):
+  File "data_lyrics.py", line 116, in <module>
+    save_lyrics(dataset_path, json_path)
+  File "data_lyrics.py", line 88, in save_lyrics
+    title_name, artist_name, song_lyric, flag = Extract(song.Title, song.Artist)
+TypeError: cannot unpack non-iterable NoneType object

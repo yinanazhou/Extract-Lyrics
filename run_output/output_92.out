@@ -25,3 +25,11 @@ Succeed 0003 : God Bless America
 Succeed 0004 : All I Really Want
 Succeed 0005 : O Tu O Yo
 Succeed 0006 : You Are So Beautiful
+Succeed 0007 : Blue Skies
+Song Not Found: Thrill Me,Roy Milton
+Traceback (most recent call last):
+  File "data_lyrics.py", line 116, in <module>
+    save_lyrics(dataset_path, json_path)
+  File "data_lyrics.py", line 88, in save_lyrics
+    title_name, artist_name, song_lyric, flag = Extract(song.Title, song.Artist)
+TypeError: cannot unpack non-iterable NoneType object
