@@ -1,5 +1,5 @@
-created virtual environment CPython3.8.10.final.0-64 in 3309ms
-  creator CPython3Posix(dest=/localscratch/yinan.9228795.0/env, clear=False, global=False)
+created virtual environment CPython3.8.10.final.0-64 in 4281ms
+  creator CPython3Posix(dest=/localscratch/yinan.9243076.0/env, clear=False, global=False)
   seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/yinan/.local/share/virtualenv/seed-app-data/v1.0.1)
   activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
 Ignoring pip: markers 'python_version < "3"' don't match your environment
@@ -25,9 +25,8 @@ Succeed 0003 : I Can't Win For Losin' You
 Succeed 0004 : Kiss An Angel Good Mornin'
 Succeed 0005 : Love Can Build A Bridge
 Succeed 0006 : Mustang Burn
-Traceback (most recent call last):
-  File "data_lyrics.py", line 113, in <module>
-    save_lyrics(dataset_path, json_path)
-  File "data_lyrics.py", line 92, in save_lyrics
-    print("Succeed %04d : " % num + title_name)
-TypeError: can only concatenate str (not "bool") to str
+Succeed 0007 : True
+Succeed 0008 : When I Call Your Name
+Succeed 0009 : Old Flame
+Succeed 0010 : Please Please Baby
+Saved json/lyric_042.json:  10

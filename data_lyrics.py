@@ -32,7 +32,9 @@ def scrape_lyrics(url):
 
 
 def Extract(track_name, artist_name):
-    query = "genius lyrics " + str(track_name) + " " + str(artist_name)
+    track_name = str(track_name)
+    artist_name = str(artist_name)
+    query = "genius lyrics " + track_name + " " + artist_name
     url = ''
     for j in search(query, tld="co.in", num=1, stop=1, pause=3):
         url = j
@@ -61,6 +63,7 @@ def Extract(track_name, artist_name):
         except:
             print("Song Not Found in Genius: %s" % (track_name + " " + artist_name))
             flag = False
+            song_json = []
 
         return track_name, artist_name, song_json, flag
 

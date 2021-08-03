@@ -1,5 +1,5 @@
-created virtual environment CPython3.8.10.final.0-64 in 6144ms
-  creator CPython3Posix(dest=/localscratch/yinan.9185697.0/env, clear=False, global=False)
+created virtual environment CPython3.8.10.final.0-64 in 5749ms
+  creator CPython3Posix(dest=/localscratch/yinan.9246639.0/env, clear=False, global=False)
   seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/yinan/.local/share/virtualenv/seed-app-data/v1.0.1)
   activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
 Ignoring pip: markers 'python_version < "3"' don't match your environment
@@ -22,8 +22,8 @@ Starting Task 180
 Succeed 0001 : Hurricane
 Song Not Found: Metal Will Never Die ,David Rock Feinstein
 Traceback (most recent call last):
-  File "data_lyrics.py", line 113, in <module>
+  File "data_lyrics.py", line 116, in <module>
     save_lyrics(dataset_path, json_path)
-  File "data_lyrics.py", line 85, in save_lyrics
+  File "data_lyrics.py", line 88, in save_lyrics
     title_name, artist_name, song_lyric, flag = Extract(song.Title, song.Artist)
 TypeError: cannot unpack non-iterable NoneType object

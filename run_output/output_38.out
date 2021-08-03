@@ -1,5 +1,5 @@
-created virtual environment CPython3.8.10.final.0-64 in 15119ms
-  creator CPython3Posix(dest=/localscratch/yinan.9155747.0/env, clear=False, global=False)
+created virtual environment CPython3.8.10.final.0-64 in 15428ms
+  creator CPython3Posix(dest=/localscratch/yinan.9246632.0/env, clear=False, global=False)
   seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/yinan/.local/share/virtualenv/seed-app-data/v1.0.1)
   activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
 Ignoring pip: markers 'python_version < "3"' don't match your environment
@@ -24,11 +24,4 @@ Succeed 0002 : Do You Love Me?
 Succeed 0003 : Nobody's Fault But Mine
 Succeed 0004 : Blue Jean Blues
 Succeed 0005 : This Is War
-Traceback (most recent call last):
-  File "data_lyrics.py", line 113, in <module>
-    save_lyrics(dataset_path, json_path)
-  File "data_lyrics.py", line 85, in save_lyrics
-    title_name, artist_name, song_lyric, flag = Extract(song.Title, song.Artist)
-  File "data_lyrics.py", line 35, in Extract
-    query = "genius lyrics " + track_name + " " + artist_name
-TypeError: can only concatenate str (not "int") to str
+Succeed 0006 : Lovesong

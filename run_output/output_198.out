@@ -1,5 +1,5 @@
-created virtual environment CPython3.8.10.final.0-64 in 4808ms
-  creator CPython3Posix(dest=/localscratch/yinan.9189851.0/env, clear=False, global=False)
+created virtual environment CPython3.8.10.final.0-64 in 1928ms
+  creator CPython3Posix(dest=/localscratch/yinan.9246560.0/env, clear=False, global=False)
   seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/yinan/.local/share/virtualenv/seed-app-data/v1.0.1)
   activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
 Ignoring pip: markers 'python_version < "3"' don't match your environment
@@ -25,12 +25,3 @@ Succeed 0003 : I Was The One She Came For
 Succeed 0004 : Love To Hate You
 Succeed 0005 : Can't You See
 Succeed 0006 : Trouble Blues
-Succeed 0007 : Dancing At A Funeral
-Succeed 0008 : Down
-Song Not Found: Killing Each Other,Anders Osborne
-Traceback (most recent call last):
-  File "data_lyrics.py", line 113, in <module>
-    save_lyrics(dataset_path, json_path)
-  File "data_lyrics.py", line 85, in save_lyrics
-    title_name, artist_name, song_lyric, flag = Extract(song.Title, song.Artist)
-TypeError: cannot unpack non-iterable NoneType object
