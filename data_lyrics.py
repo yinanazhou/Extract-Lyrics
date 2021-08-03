@@ -41,6 +41,8 @@ def Extract(track_name, artist_name):
 
         if(url.find('genius') == -1):
             print("Song Not Found: %s,%s" %(track_name, artist_name))
+            flag = False
+            song_json = []
             continue
 
         try:
