@@ -43,7 +43,8 @@ def Extract(track_name, artist_name):
             print("Song Not Found: %s,%s" %(track_name, artist_name))
             flag = False
             song_json = []
-            continue
+            return track_name, artist_name, song_json, flag
+            # continue
 
         try:
             song_json = scrape_lyrics(url)
