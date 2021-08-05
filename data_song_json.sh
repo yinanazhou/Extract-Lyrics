@@ -2,7 +2,7 @@
 #SBATCH --account=def-ichiro
 #SBATCH --gres=gpu:v100:1
 #SBATCH --time=05:00:00
-#SBATCH --array=38,92,115,118,127,159,167,180,198
+#SBATCH --array=92,115,118,127,159,167,180,198
 #SBATCH --output=run_output/output_%a.out
 #SBATCH --gres=gpu:1       # Request GPU "generic resources"
 #SBATCH --cpus-per-task=4  # Cores proportional to GPUs: 6 on Cedar, 16 on Graham.

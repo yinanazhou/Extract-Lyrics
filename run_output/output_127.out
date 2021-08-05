@@ -1,5 +1,5 @@
-created virtual environment CPython3.8.10.final.0-64 in 2445ms
-  creator CPython3Posix(dest=/localscratch/yinan.9246636.0/env, clear=False, global=False)
+created virtual environment CPython3.8.10.final.0-64 in 6399ms
+  creator CPython3Posix(dest=/localscratch/yinan.9425720.0/env, clear=False, global=False)
   seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/yinan/.local/share/virtualenv/seed-app-data/v1.0.1)
   activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
 Ignoring pip: markers 'python_version < "3"' don't match your environment
@@ -22,9 +22,11 @@ Starting Task 127
 Succeed 0001 : Happy Birthday Jesus
 Succeed 0002 : Happy Xmas 
 Song Not Found: Have Yourself A Merry Little Christmas,Matt Brouwer
-Traceback (most recent call last):
-  File "data_lyrics.py", line 116, in <module>
-    save_lyrics(dataset_path, json_path)
-  File "data_lyrics.py", line 88, in save_lyrics
-    title_name, artist_name, song_lyric, flag = Extract(song.Title, song.Artist)
-TypeError: cannot unpack non-iterable NoneType object
+Succeed 0003 : Love Came Down at Christmas
+Succeed 0004 : Joseph's Lullaby
+Succeed 0005 : Merry Christmas
+Succeed 0006 : Por Ti Voy A Morir
+Succeed 0007 : What A Wonderful World 
+Succeed 0008 : Metal Gods
+Succeed 0009 : Silver Cloud
+Saved json/lyric_127.json:  9
