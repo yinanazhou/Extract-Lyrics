@@ -1,5 +1,5 @@
-created virtual environment CPython3.8.10.final.0-64 in 6830ms
-  creator CPython3Posix(dest=/localscratch/yinan.9189849.0/env, clear=False, global=False)
+created virtual environment CPython3.8.10.final.0-64 in 5430ms
+  creator CPython3Posix(dest=/localscratch/yinan.9469899.0/env, clear=False, global=False)
   seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/yinan/.local/share/virtualenv/seed-app-data/v1.0.1)
   activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
 Ignoring pip: markers 'python_version < "3"' don't match your environment
@@ -27,4 +27,6 @@ Succeed 0005 : Fever
 Succeed 0006 : Crash
 Succeed 0007 : Kind Woman
 Succeed 0008 : Vagabundo
-slurmstepd: error: *** JOB 9189849 ON cdr115 CANCELLED AT 2021-08-02T13:22:34 DUE TO TIME LIMIT ***
+Succeed 0009 : Reptilectric
+Succeed 0010 : No Puedo Olvidarme De Ti 
+Saved json/lyric_196.json:  10

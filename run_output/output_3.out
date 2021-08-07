@@ -1,5 +1,5 @@
-created virtual environment CPython3.8.10.final.0-64 in 5444ms
-  creator CPython3Posix(dest=/localscratch/yinan.9140127.0/env, clear=False, global=False)
+created virtual environment CPython3.8.10.final.0-64 in 7277ms
+  creator CPython3Posix(dest=/localscratch/yinan.9477261.0/env, clear=False, global=False)
   seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/yinan/.local/share/virtualenv/seed-app-data/v1.0.1)
   activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
 Ignoring pip: markers 'python_version < "3"' don't match your environment
@@ -19,4 +19,14 @@ Collecting et-xmlfile
 Installing collected packages: et-xmlfile, openpyxl
 Successfully installed et-xmlfile-1.1.0 openpyxl-3.0.7+computecanada
 Starting Task 3
-slurmstepd: error: *** JOB 9140127 ON cdr347 CANCELLED AT 2021-08-01T23:33:08 DUE TO TIME LIMIT ***
+Song Not Found in Genius: Peace Of God Tarralyn Ramsey
+Succeed 0001 : One
+Succeed 0002 : Where'd All The Time Go?
+Succeed 0003 : Unconditional Love
+Succeed 0004 : Steppin' Into Love
+Song Not Found: Darkness At The Bottom,Anders Osborne
+Succeed 0005 : Gimme Shelter
+Succeed 0006 : Happy
+Succeed 0007 : Detroit City
+Succeed 0008 : Got No Reason Now For Goin' Home
+Saved json/lyric_003.json:  8

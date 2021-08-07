@@ -1,5 +1,5 @@
-created virtual environment CPython3.8.10.final.0-64 in 7153ms
-  creator CPython3Posix(dest=/localscratch/yinan.9186192.0/env, clear=False, global=False)
+created virtual environment CPython3.8.10.final.0-64 in 3038ms
+  creator CPython3Posix(dest=/localscratch/yinan.9478518.0/env, clear=False, global=False)
   seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/yinan/.local/share/virtualenv/seed-app-data/v1.0.1)
   activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
 Ignoring pip: markers 'python_version < "3"' don't match your environment
@@ -26,4 +26,7 @@ Succeed 0004 : All My Fault
 Succeed 0005 : You Don't Have To Be Afraid
 Succeed 0006 : That Girl
 Succeed 0007 : She Worth The Trouble
-slurmstepd: error: *** JOB 9186192 ON cdr210 CANCELLED AT 2021-08-02T11:06:11 DUE TO TIME LIMIT ***
+Song Not Found in Genius: Imma Love You Right John Brown
+Song Not Found in Genius: El Rey  Los Super Reyes
+Succeed 0008 : Someday You Will Be Loved
+Saved json/lyric_137.json:  8
