@@ -1,5 +1,5 @@
-created virtual environment CPython3.8.10.final.0-64 in 2484ms
-  creator CPython3Posix(dest=/localscratch/yinan.9477262.0/env, clear=False, global=False)
+created virtual environment CPython3.8.10.final.0-64 in 9189ms
+  creator CPython3Posix(dest=/localscratch/yinan.10223759.0/env, clear=False, global=False)
   seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/yinan/.local/share/virtualenv/seed-app-data/v1.0.1)
   activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
 Ignoring pip: markers 'python_version < "3"' don't match your environment
@@ -26,3 +26,7 @@ Succeed 0004 : But You Know I Love You
 Succeed 0005 : The Nobodies
 Succeed 0006 : Killer Of Giants
 Succeed 0007 : Never Enough
+Song Not Found in Genius: Iron Maiden Iron Maiden
+Succeed 0008 : New Girl Now
+Song Not Found in Genius: Willie The Wimp  Stevie Ray Vaughan & Double Trouble
+Saved json/lyric_076.json:  8

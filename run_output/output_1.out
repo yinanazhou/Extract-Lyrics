@@ -1,5 +1,5 @@
-created virtual environment CPython3.8.10.final.0-64 in 3089ms
-  creator CPython3Posix(dest=/localscratch/yinan.9477260.0/env, clear=False, global=False)
+created virtual environment CPython3.8.10.final.0-64 in 7480ms
+  creator CPython3Posix(dest=/localscratch/yinan.10113265.0/env, clear=False, global=False)
   seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/yinan/.local/share/virtualenv/seed-app-data/v1.0.1)
   activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
 Ignoring pip: markers 'python_version < "3"' don't match your environment
@@ -22,3 +22,11 @@ Starting Task 1
 Succeed 0001 : There Goes My Baby
 Succeed 0002 : On My Mind
 Succeed 0003 : Rockstar 101 
+Succeed 0004 : Bed
+Succeed 0005 : Don't Haffi Dread
+Succeed 0006 : My Love Is Your Love
+Succeed 0007 : Study People
+Succeed 0008 : Spellwork
+Succeed 0009 : Can't Let You Go
+Succeed 0010 : Slam
+Saved json/lyric_001.json:  10
