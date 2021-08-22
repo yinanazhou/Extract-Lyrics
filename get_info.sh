@@ -11,4 +11,6 @@ virtualenv --no-download $SLURM_TMPDIR/env
 source $SLURM_TMPDIR/env/bin/activate
 
 echo "python"
-python -u info.py --mode mw-plw
+python info.py --i json_test --o moody_test.json --c piechart_test.png
+python info.py --i json --o moody_lyrics.json --c piechart.png
+

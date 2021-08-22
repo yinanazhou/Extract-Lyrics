@@ -2,6 +2,9 @@ import os
 import json
 import matplotlib.pyplot as plt
 from collections import Counter
+import argparse
+
+# merge all json files and get statistics
 
 
 def get_info(folder):
@@ -12,23 +15,24 @@ def get_info(folder):
 
     for fn in fnames:
         trg_path = os.path.join(in_folder + '/' + fn)
-        # print(trg_path)
         with open(trg_path) as f:
             song_info = json.load(f)
 
         artist.extend(song_info["Artist"])
+        # print(type(song_info["Artist"]))
         title.extend(song_info["Title"])
 
         lyric_info = {"Lyric": []}
         for l in song_info["Lyric"]:
-            lyric_info["Lyric"].extend(l["Lyrics"][0])
-        lyric.extend(lyric_info["Lyric"])
+            lyric_info["Lyric"] = ' '.join(l["Lyrics"][0])
+
+        lyric.extend([lyric_info["Lyric"]])
         mood.extend(song_info["Mood"])
 
     return artist, title, lyric, mood
 
 
-def distribution(tag):
+def distribution(tag, path):
     # draw distribution
 
     plt.figure(figsize=(7.8, 5), dpi=80)  # fig size
@@ -54,7 +58,7 @@ def distribution(tag):
     # patches: pie chart，texts1: label text，texts2: pie chart text
     plt.axis('equal')
     plt.legend(title='Cluster', loc='upper right')
-    plt.savefig('piechart.png')
+    plt.savefig(path)
 
     # print info
     print("number of songs: ", len(tag))
@@ -63,8 +67,15 @@ def distribution(tag):
 
 
 if __name__ == "__main__":
-    in_folder = "json"
-    out_file = "moody.json"
+    parser = argparse.ArgumentParser()
+    in_folder_parser = parser.add_argument('--i', metavar='IN', action='store', help='input folder name', type=str)
+    out_file_parser = parser.add_argument('--o', metavar='OUT', action='store', help='out file name', type=str)
+    chart_path_parser = parser.add_argument('--chart', metavar='CHART', action='store', help='chart name', type=str)
+
+    args = parser.parse_args()
+    in_folder = args.i
+    out_file = args.o
+    chart_path = args.chart
 
     allowed_exts = ".json"
     fnames = [x for x in os.listdir(in_folder) if x.split('.')[-1] in allowed_exts]
@@ -78,7 +89,7 @@ if __name__ == "__main__":
     moodylyrics["Lyric"].append(Lyric)
     moodylyrics["Mood"].append(Mood)
 
-    distribution(Mood)
+    distribution(Mood, chart_path)
 
     with open(out_file, 'w') as fp:
         json.dump(moodylyrics, fp, indent=4)
