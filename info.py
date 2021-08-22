@@ -19,14 +19,13 @@ def get_info(folder):
             song_info = json.load(f)
 
         artist.extend(song_info["Artist"])
-        # print(type(song_info["Artist"]))
         title.extend(song_info["Title"])
 
         lyric_info = {"Lyric": []}
-        for l in song_info["Lyric"]:
-            lyric_info["Lyric"] = ' '.join(l["Lyrics"][0])
+        for ly in song_info["Lyric"]:
+            lyric_info["Lyric"] = ' '.join(ly["Lyrics"][0])
+            lyric.extend([lyric_info["Lyric"]])
 
-        lyric.extend([lyric_info["Lyric"]])
         mood.extend(song_info["Mood"])
 
     return artist, title, lyric, mood
